@@ -112,7 +112,7 @@ automatic approval review rejected their respective guarded cleanup actions as
 attempted. Conclusions are retained in the fixture investigation and manifests.
 # Windows binary release — 2026-09-27
 
-Published [Windows x64 build](https://github.com/GeneralAtrox/GainGround_ModernSourcePort/releases/tag/build-2026-09-27)
+Published [Windows x64 build](https://github.com/GeneralAtrox/GainGround_Arcade_NativePort/releases/tag/build-2026-09-27)
 from source commit `59f105cfffc6abba6073355cf3966c03dbc9dd8e`.
 A clean `git archive` export completed all 686 steps for the Release
 `gain_ground_runtime` target with GNU C++ 16.2.0 and private research tests off.

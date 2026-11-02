@@ -20,7 +20,7 @@ Removing game data is not legal clearance of the translated code. See
 ## Build
 
 For a ready-to-run Windows x64 build, download the ZIP from
-[GitHub Releases](https://github.com/GeneralAtrox/GainGround_ModernSourcePort/releases/latest).
+[GitHub Releases](https://github.com/GeneralAtrox/GainGround_Arcade_NativePort/releases/latest).
 Extract the whole folder and run `gain_ground_runtime.exe`, keeping the included
 DLLs beside it. Supply your own supported ROM set on first launch.
 
