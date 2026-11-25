@@ -10,15 +10,7 @@ without treating it as live status.
 
 ---
 
-## 1. Safety & Test-Build Cleanup
-
-- **Mandatory:** Every agent that creates, copies, or configures a test build or temporary capture run must remove that build and all associated binaries, object files, compiler caches, and intermediate logs before ending its task.
-- Treat test builds under `build/`, `tmp/`, `.tmp/`, and `research-runtime-*` as disposable. Clean them up immediately upon test completion.
-- Durable conclusions must be recorded in tracked manifests, schemas, tests, or markdown documentation before cleanup.
-
----
-
-## 2. FastMCP Tooling Surface (`MCP/server.py`)
+## 1. FastMCP Tooling Surface (`MCP/server.py`)
 
 New agents should utilize the project-scoped MCP server (`gainground-dev`) instead of writing ad-hoc shell scripts:
 
@@ -170,7 +162,7 @@ New agents should utilize the project-scoped MCP server (`gainground-dev`) inste
 
 ---
 
-## 3. Running Tests & Builds
+## 2. Running Tests & Builds
 
 - **MCP Tests**:
   ```powershell
